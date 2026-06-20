@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,30 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio / Site</title>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            text-align: center; 
-            margin-top: 50px; 
-            background-color: #f4f4f9; 
-            color: #333; 
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f9;
+            color: #333;
         }
-        h1 { color: #2c3e50; }
-        a {
-            color: #3498db;
+        h1 {
+            color: #2c3e50;
+        }
+        .btn-github {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 24px;
+            background-color: #24292e;
+            color: white;
             text-decoration: none;
+            border-radius: 6px;
             font-weight: bold;
         }
-        a:hover {
-            text-decoration: underline;
+        .repo-list {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0;
+            list-style: none;
+        }
+        .repo-item {
+            background: #fff;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .repo-item a {
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .repo-item p {
+            color: #555;
+            margin: 5px 0 0;
         }
     </style>
 </head>
 <body>
     <h1>Olá! Bem-vindo ao meu site no GitHub Pages.</h1>
-    <p>Este é o meu primeiro arquivo index.html. Em breve vou adicionar meus projetos aqui!</p>
     
-    <p>Veja o código fonte deste projeto no meu <a href="https://github.com/davifernandobastosdeassiss-coder/davifernandobastosdeassiss-coder.github.io" target="_blank" rel="noopener noreferrer">Repositório no GitHub</a>.</p>
+    <a href="https://github.com/davifernandobastosdeassiss-coder" target="_blank" class="btn-github">
+        Visitar meu perfil no GitHub
+    </a>
+
+    <p>Aqui estão os meus repositórios públicos:</p>
+
+    <ul class="repo-list" id="repo-list">
+        <li class="repo-item">Carregando projetos...</li>
+    </ul>
+
+    <script>
+        const username = 'davifernandobastosdeassiss-coder'; 
+        // Corrigido: usando a API do GitHub para buscar os dados corretamente
+        const url = `https://api.github.com/users/${username}/repos`;
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const lista = document.getElementById('repo-list');
+                lista.innerHTML = ''; 
+
+                if (!Array.isArray(data) || data.length === 0) {
+                    lista.innerHTML = '<li class="repo-item"><p>Nenhum repositório encontrado.</p></li>';
+                    return;
+                }
+
+                data.forEach(repo => {
+                    const item = document.createElement('li');
+                    item.className = 'repo-item';
+                    item.innerHTML = `
+                        <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+                        <p>${repo.description || 'Sem descrição'}</p>
+                    `;
+                    lista.appendChild(item);
+                });
+            })
+            .catch(error => {
+                console.error('Erro ao buscar repositórios:', error);
+                document.getElementById('repo-list').innerHTML = '<li class="repo-item"><p>Erro ao carregar repositórios.</p></li>';
+            });
+    </script>
 </body>
 </html>
-
-
