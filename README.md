@@ -11,10 +11,10 @@ Requisitos importantes para usar: O seu PS2 precisa ter um desbloqueio (no míni
 6) È possivel sair da loja pressionando R1(em testes) 
 
 # Como colocar no Playstation 2
- # Coloque a pasta "PSTORE2_ALPHA_0.1" na raiz do pendrive, e execute o arquivo "pstore2_alpha_0.1.elf" dentro da pasta "PSTORE2_ALPHA_0.1" usando o wLaunchELF, ou qualquer outro homebrew.
+ Coloque a pasta "PSTORE2_ALPHA_0.1" na raiz do pendrive, e execute o arquivo "pstore2_alpha_0.1.elf" dentro da pasta "PSTORE2_ALPHA_0.1" usando o wLaunchELF, ou qualquer outro homebrew.
 
 # Como usar a PSTORE2 no Playstation 2
- # Assim que abrir a PSTORE2, coloque qualquer usuario, e selecione o botao triangulo para confirmar, navegue ate o jogo desejado e selecione o botao X para confirmar, espere o download terminar, depois de terminado, espere a extracao, copie o jogo/app desejado selecionando a seta para direita, espere a conclusao e pronto, o jogo/app estara no seu hd/pendrive!!!.
+ Assim que abrir a PSTORE2, coloque qualquer usuario, e selecione o botao triangulo para confirmar, navegue ate o jogo desejado e selecione o botao X para confirmar, espere o download terminar, depois de terminado, espere a extracao, copie o jogo/app desejado selecionando a seta para direita, espere a conclusao e pronto, o jogo/app estara no seu hd/pendrive!!!.
 
 Estado atual do projeto: O app ainda está em fase inicial (Alpha 0.1) e pode conter bugs. No momento, a função de baixar os jogos ainda está desativada , mas estou trabalhando duro para corrigir isso o mais rápido possível!
 
