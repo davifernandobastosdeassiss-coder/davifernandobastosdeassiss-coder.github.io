@@ -16,6 +16,8 @@ Requisitos importantes para usar: O seu PS2 precisa ter um desbloqueio (no míni
 # Como usar a PSTORE2 no Playstation 2
  Assim que abrir a PSTORE2, coloque qualquer usuario, e selecione o botao triangulo para confirmar, navegue ate o jogo desejado e selecione o botao X para confirmar, espere o download terminar, depois de terminado, espere a extracao, copie o jogo/app desejado selecionando a seta para direita, espere a conclusao e pronto, o jogo/app estara no seu hd/pendrive!!!.
 
-Estado atual do projeto: O app ainda está em fase inicial (Alpha 0.1) e pode conter bugs. No momento, a função de baixar os jogos ainda está desativada , mas estou trabalhando duro para corrigir isso o mais rápido possível!
+# Estado atual do projeto:
+O app ainda está em fase inicial (Alpha 0.1) e pode conter bugs. No momento, a função de baixar os jogos ainda está desativada , mas estou trabalhando duro para corrigir isso o mais rápido possível!
 
-O que vem por aí na Versão Alpha 0.2: Downloads Liberados: Correção do sistema para você baixar seus jogos direto pelo console. Mais Títulos: Cerca de 50 jogos incríveis (como Black , Call of Duty , entre outros). Catálogo de Homebrews: Menu dedicado para baixar outros apps e homebrews, como o Open PS2 Loader. Interface Nova: Menu de idiomas, temas personalizados e gráficos muito melhores na loja. Qualquer dúvida ou sugestão, peça à vontade para acompanhar e contribuir com o projeto!
+# O que vem por aí na Versão Alpha 0.2: 
+Downloads Liberados: Correção do sistema para você baixar seus jogos direto pelo console. Mais Títulos: Cerca de 50 jogos incríveis (como Black , Call of Duty , entre outros). Catálogo de Homebrews: Menu dedicado para baixar outros apps e homebrews, como o Open PS2 Loader. Interface Nova: Menu de idiomas, temas personalizados e gráficos muito melhores na loja. Qualquer dúvida ou sugestão, peça à vontade para acompanhar e contribuir com o projeto!
