@@ -1,23 +1,55 @@
-# PSTORE2
-Fala, galera! Estou desenvolvendo uma loja de jogos própria para o PlayStation 2, permitindo baixar jogos e aplicativos diretamente pelo console. O projeto é totalmente de código aberto (open-source) e você pode conferir o código a qualquer momento!.
+# PSTORE2 - Loja de Jogos e Apps para PlayStation 2
+A PSTORE2 é uma solução de código aberto ( open-source ) desenvolvida para o PlayStation 2 , permitindo que os usuários façam o download e a instalação de jogos e aplicativos (homebrews) diretamente pelo console.
 
-Requisitos importantes para usar: O seu PS2 precisa ter um desbloqueio (no mínimo) para conseguir executar o aplicativo. É obrigatório ter conexão de rede (cabo de internet) no console para baixar os arquivos. O que já funciona nesta versão Alpha 0.1:
+# 🚀 Sobre o Projeto
+O objetivo do PSTORE2 é simplificar a gestão de jogos para usuários de PS2 que utilizam OPL (Open PS2 Loader), facilitando o processo de instalação sem a necessidade constante de remover o pendrive ou HD para transferir arquivos via PC.
 
-1) A loja exibe alguns jogos na interface. 
-2) Contador de download visível com barra de progresso. 
-3) Voce pode copiar o jogo/app para o HD/pendrive diretamente do console! assim que o download for concluído. 
-4) Limite de 10 downloads diários por usuário (para evitar sobrecarga do servidor). 
-5) Tela de Login(em testes) 
-6) È possivel sair da loja pressionando R1(em testes) 
+# ⚙️ Requisitos
+Para utilizar o PSTORE2, seu console deve atender aos seguintes critérios:
 
-# Como colocar no Playstation 2
- Coloque a pasta "PSTORE2_ALPHA_0.1" na raiz do pendrive, e execute o arquivo "pstore2_alpha_0.1.elf" dentro da pasta "PSTORE2_ALPHA_0.1" usando o wLaunchELF, ou qualquer outro homebrew.
+Desbloqueio: O PS2 deve possuir algum tipo de desbloqueio capaz de executar arquivos .elf.
 
-# Como usar a PSTORE2 no Playstation 2
- Assim que abrir a PSTORE2, coloque qualquer usuario, e selecione o botao triangulo para confirmar, navegue ate o jogo desejado e selecione o botao X para confirmar, espere o download terminar, depois de terminado, espere a extracao, copie o jogo/app desejado selecionando a seta para direita, espere a conclusao e pronto, o jogo/app estara no seu hd/pendrive!!!.
+Conexão de Rede: É obrigatório o uso de cabo de rede (Ethernet) conectado ao console.
 
-# Estado atual do projeto:
-O app ainda está em fase inicial (Alpha 0.1) e pode conter bugs. No momento, a função de baixar os jogos ainda está desativada , mas estou trabalhando duro para corrigir isso o mais rápido possível!
+Armazenamento: Pendrive ou HD configurado para uso no PS2.
 
-# O que vem por aí na Versão Alpha 0.2: 
-Downloads Liberados: Correção do sistema para você baixar seus jogos direto pelo console. Mais Títulos: Cerca de 50 jogos incríveis (como Black , Call of Duty , entre outros). Catálogo de Homebrews: Menu dedicado para baixar outros apps e homebrews, como o Open PS2 Loader. Interface Nova: Menu de idiomas, temas personalizados e gráficos muito melhores na loja. Qualquer dúvida ou sugestão, peça à vontade para acompanhar e contribuir com o projeto!
+# 📋 Funcionalidades (Alpha 0.1)
+Interface Intuitiva: Navegação simples entre jogos e apps.
+
+Barra de Progresso: Monitoramento em tempo real do download.
+
+Gestão Direta: Extração e cópia de arquivos diretamente para o dispositivo de armazenamento.
+
+Segurança: Limite de 10 downloads diários por usuário (prevenção de carga no servidor).
+
+Controles: Suporte para login e atalhos rápidos (R1 para sair do aplicativo).
+
+# 📥 Como Instalar
+Baixe a versão mais recente do projeto.
+
+Coloque a pasta PSTORE2_ALPHA_0.1 na raiz do seu pendrive.
+
+Utilize o wLaunchELF (ou outro gerenciador de homebrew de sua preferência) e execute o arquivo pstore2_alpha_0.1.elf.
+
+# 🎮 Como Utilizar
+Ao abrir o aplicativo, insira seus dados de login e pressione Triângulo para confirmar.
+
+Navegue pelos títulos usando os direcionados.
+
+Pressione X para iniciar o download do jogo desejado.
+
+Após o término da remoção, pressione Seta para a Direita para copiar o arquivo para o seu dispositivo.
+
+# 🚧 Status do Projeto
+O projeto encontra-se atualmente em **fase Alpha 0.1**. Informamos que, no momento, a funcionalidade de download direto de jogos e aplicativos encontra-se **desativada**. Nossa equipe de desenvolvimento está trabalhando ativamente na otimização deste sistema para garantir a máxima estabilidade e segurança antes de liberá-lo para a comunidade.
+
+# 🗓️ O que esperar na Versão Alpha 0.2
+Downloads Ativados: Correção do sistema de transferência de arquivos.
+
+Catálogo Expandido: Adição de mais de 50 títulos clássicos (Black, Call of Duty, etc).
+
+Menu de Homebrews: Seção dedicada para baixar importados como o OPL.
+
+Customização: Suporte a múltiplos idiomas e temas personalizados.
+
+Contribuições são bem-vindas! Se você é desenvolvedor ou usuário e quer ajudar o PSTORE2 a crescer, abra um Issue ou envie um Pull Request.
