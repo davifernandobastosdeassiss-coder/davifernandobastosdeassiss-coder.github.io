@@ -1,3 +1,4 @@
+# PSTORE2
 Fala, galera! Estou desenvolvendo uma loja de jogos própria para o PlayStation 2, permitindo baixar jogos e aplicativos diretamente pelo console. O projeto é totalmente de código aberto (open-source) e você pode conferir o código a qualquer momento!.
 
 Requisitos importantes para usar: O seu PS2 precisa ter um desbloqueio (no mínimo) para conseguir executar o aplicativo. É obrigatório ter conexão de rede (cabo de internet) no console para baixar os arquivos. O que já funciona nesta versão Alpha 0.1:
