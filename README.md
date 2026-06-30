@@ -46,7 +46,7 @@ O projeto encontra-se atualmente em **fase Alpha 0.1**. Informamos que, no momen
 # 🗓️ O que esperar na Versão Alpha 0.2
 Downloads Ativados: Correção do sistema de transferência de arquivos.
 
-Catálogo Expandido: Adição de mais de 50 títulos clássicos (Black, Call of Duty, etc).
+Catálogo Expandido: Adição de mais de 100 títulos clássicos para download(Black, Call of Duty, etc).
 
 Menu de Homebrews: Seção dedicada para baixar importados como o OPL.
 
